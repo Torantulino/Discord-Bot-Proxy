@@ -1,3 +1,5 @@
+# ! WARNING | THIS REPO IS ENTIRELY "VIBE CODED" BY AN AI AND SHOULD BE TREATED AS INSECURE | NEVER RUN OR DEPLOY CODE FROM THIS REPO WITHOUT FIRST REVIEWING IT !
+
 # Discord ↔ Platform **Relay Bot**
 
 A one‑file, open‑source proxy that forwards every new Discord message to **your** webhook and lets your platform post messages back into Discord via a simple, HMAC‑secured REST endpoint.
