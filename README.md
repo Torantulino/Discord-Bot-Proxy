@@ -13,7 +13,7 @@ A one‑file, open‑source proxy that forwards every new Discord message to **y
 ---
 
 ## 🚀 One‑click deploy (Railway)
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?templateRepo=https://github.com/Torantulino/Discord-Bot-Proxy)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/9bTw8E?referralCode=R5sBUf)
 
 1. Click the button above.  
 2. Add these **environment variables** when prompted:
