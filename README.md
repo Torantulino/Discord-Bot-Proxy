@@ -101,6 +101,7 @@ python-dotenv>=1.0.1
 
 ---
 
+## 🔑 How to get your `DISCORD_TOKEN`
 1. **Open or create your application**  
    • Go to <https://discord.com/developers/applications> → **New Application** (or click an existing one).  
 2. **Add the bot user (if you don’t see a token yet)**  
