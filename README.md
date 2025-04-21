@@ -101,6 +101,33 @@ python-dotenv>=1.0.1
 
 ---
 
+## 🔑 How to get your `DISCORD_TOKEN`
+Discord calls this the **Bot Token**. You generate it once, copy it immediately, and keep it secret.
+
+1. **Create (or open) your application**  
+   • Navigate to <https://discord.com/developers/applications> and click **New Application** → give it a name.  
+   • Select the new app in the list.
+2. **Add a Bot user**  
+   • In the left sidebar, click **Bot** → **Add Bot** → **Yes, do it!**  
+   • A robot avatar appears—that’s your bot account.
+3. **Copy the token**  
+   • Still on the **Bot** page, click **Reset Token** (or **Reveal Token** in older UI).  
+   • Confirm, then hit **Copy**.  
+   • **Paste it immediately** into `DISCORD_TOKEN` in Railway or your local `.env`; you will *not* be able to see it again unless you regenerate.
+4. **Enable Message‑Content Intent**  
+   • Same page, scroll to **Privileged Gateway Intents**.  
+   • Toggle **Message Content Intent** to **ON** (purple).  
+   • Click **Save Changes** at the bottom.
+5. **Invite the bot to your server**  
+   • Go to **OAuth2 → URL Generator**.  
+   • Scopes: check **bot**.  
+   • Bot Permissions: check **Read Messages/View Channels** and **Send Messages**.  
+   • Copy the generated link, open it in your browser, pick your server, **Authorize**.
+
+> 🛡️ Treat the token like a production‑database password. Never commit it to Git, paste in screenshots, or send in chat.
+
+---
+
 ## 🛠️ Discord bot setup recap
 1. Create an **Application** → **Bot** → *Add Bot*.
 2. Copy the token into `DISCORD_TOKEN` (keep it secret!).
