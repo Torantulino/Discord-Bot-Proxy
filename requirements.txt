@@ -1,0 +1,8 @@
+# Core libraries
+discord.py>=2.3.2          # Discord gateway + REST client
+fastapi>=0.110.0           # Lightweight ASGI framework for the /send API
+uvicorn[standard]>=0.29.0  # ASGI server to run FastAPI
+aiohttp>=3.9.3             # HTTP client used for forwarding messages
+
+# Local development / dotenv support
+python-dotenv>=1.0.1       # Load .env when running locally
